@@ -81,9 +81,9 @@ fun GreetingPreview() {
         Column {
             GreetingImage()
             GreetingText(
-                Text1 = "Jetpack Compose tutorial",
-                Text2 = "Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.",
-                Text3 = "In this tutorial, you build a simple UI component with declarative functions. You call Compose functions to say what elements you want and the Compose compiler does the rest. Compose is built around Composable functions. These functions let you define your app\\'s UI programmatically because they let you describe how it should look and provide data dependencies, rather than focus on the process of the UI\\'s construction, such as initializing an element and then attaching it to a parent. To create a Composable function, you add the @Composable annotation to the function name."
+                Text1 = "Historia de Kotlin",
+                Text2 = "Kotlin se originó en JetBrains en 2010 y ha sido de código abierto desde 2012. Un sistema de programación relativamente joven pero que resulta fundamental para comprender la evolución de las aplicaciones diseñadas para Android. Un lenguaje que necesitas conocer si quieres ser programador de aplicaciones para dispositivos móviles.",
+                Text3 = "Como te hemos contado en la introducción, se trata de un lenguaje de programación de código abierto, de tipo estático y multiplataforma. Kotlin apareció por primera vez en 2011, aunque no tuvo mucha popularidad en sus primeros cinco años de vida."
             )
         }
     }
